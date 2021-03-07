@@ -1,13 +1,16 @@
+/* apply the following to all css code */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* apply #d9dd6 background-color to the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* apply the following to the class header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* apply the following only to h1 inside header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* apply the following to class seo inside h1 inside class header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* apply the following to div inside class header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +38,7 @@ body {
     font-size: 20px;
 }
 
+/* apply the following to unordered list inside div inside header class */
 .header div ul {
     list-style-type: none;
 }
